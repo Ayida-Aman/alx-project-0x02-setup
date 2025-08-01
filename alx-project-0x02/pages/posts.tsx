@@ -2,7 +2,6 @@ import PostCard from '@/components/common/PostCard'
 import Header from '@/components/layout/Header'
 import { PostProps } from '@/interfaces'
 import React, { useEffect, useState } from 'react'
-
 function Posts() {
     const [posts, setPosts] = useState<PostProps[]>([])
     useEffect(()=>{
