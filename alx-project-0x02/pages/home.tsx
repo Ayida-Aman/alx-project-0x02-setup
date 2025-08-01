@@ -2,6 +2,7 @@ import Card from '@/components/common/Card'
 import React, { useState } from 'react'
 import { CardProps } from '@/interfaces'
 import PostModal from '@/components/common/PostModal'
+import Header from '@/components/layout/Header'
 function Home() {
     const [showModal, setShowModal] = useState(false)
     const [posts, setPosts] = useState([
@@ -12,6 +13,7 @@ function Home() {
     }
   return (
     <>
+        <Header/>
         <button onClick={()=>setShowModal(true)}>Add Post</button>
         {posts.map((post, index) => (
         <Card key={index} title={post.title} content={post.content} />

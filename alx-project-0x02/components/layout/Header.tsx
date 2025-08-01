@@ -7,6 +7,7 @@ function Header() {
         <nav className='justify-between gap-1'>
             <Link href="/home">Home</Link>
             <Link href="/about">About</Link>
+            <Link href="/posts">Posts</Link>
         </nav>
     </>
   )
