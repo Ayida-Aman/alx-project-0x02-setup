@@ -10,3 +10,8 @@ export interface ButtonProps{
     size: string;
     shape: string;
 }
+export interface PostProps{
+    title: string;
+    content: string;
+    userId: number;
+}
