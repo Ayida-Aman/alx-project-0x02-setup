@@ -1,0 +1,3 @@
+interface idk{
+    name:string;
+}
